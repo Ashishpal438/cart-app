@@ -18,10 +18,8 @@ const Cart = () => {
         if (products) {
             let sum = 0
             for (let i = 0; i < products.length; i++) {
-                sum += Number(Math.floor(products[i].price.split(" ")[1] / 30))
+                sum += Number(Math.floor(products[i].price.split(" ")[1] / 30) * products[i].quantity)
             }
-
-            console.log(sum, typeof sum)
 
             setOrder(sum)
             setDelivery(7.2)
@@ -69,7 +67,8 @@ const Cart = () => {
                                     <br />
                                     <span className='light'> {product.description}</span>
                                     <br />
-                                    <span> <b>${Math.floor(product.price.split(" ")[1] / 30)}</b></span> <span className='color-text'>In Stock</span>
+                                    <span> <b>${Math.floor(product.price.split(" ")[1] / 30)}</b></span> <span className='color-text'>In Stock</span> <br />
+                                    <span className='light'>Quantity : {product.quantity} </span>
                                 </div>
 
 

@@ -27,7 +27,8 @@ export const ProductContextProvider = ({ children }) => {
       "product-sizeButton 2": 40,
       "product-sizeButton 3": 42,
       "product-sizeButton 4": 44,
-      "product-sizeButton 5": ""
+      "product-sizeButton 5": "",
+      "quantity": 1,
     },
     {
       id: 2,
@@ -51,7 +52,8 @@ export const ProductContextProvider = ({ children }) => {
       "product-sizeButton 2": 40,
       "product-sizeButton 3": 42,
       "product-sizeButton 4": 44,
-      "product-sizeButton 5": 46
+      "product-sizeButton 5": 46,
+      "quantity": 1,
     },
     {
       id: 3,
@@ -75,7 +77,8 @@ export const ProductContextProvider = ({ children }) => {
       "product-sizeButton 2": 40,
       "product-sizeButton 3": 42,
       "product-sizeButton 4": 44,
-      "product-sizeButton 5": ""
+      "product-sizeButton 5": "",
+      "quantity": 1,
     },
     {
       id: 4,
@@ -99,7 +102,8 @@ export const ProductContextProvider = ({ children }) => {
       "product-sizeButton 2": "M",
       "product-sizeButton 3": "L",
       "product-sizeButton 4": "XL",
-      "product-sizeButton 5": ""
+      "product-sizeButton 5": "",
+      "quantity": 1,
     },
     {
       id: 5,
@@ -123,7 +127,8 @@ export const ProductContextProvider = ({ children }) => {
       "product-sizeButton 2": 40,
       "product-sizeButton 3": 42,
       "product-sizeButton 4": 44,
-      "product-sizeButton 5": 46
+      "product-sizeButton 5": 46,
+      "quantity": 1,
     },
     {
       id: 6,
@@ -147,7 +152,8 @@ export const ProductContextProvider = ({ children }) => {
       "product-sizeButton 2": 40,
       "product-sizeButton 3": 42,
       "product-sizeButton 4": 44,
-      "product-sizeButton 5": ""
+      "product-sizeButton 5": "",
+      "quantity": 1,
     },
     {
       id: 7,
@@ -171,7 +177,8 @@ export const ProductContextProvider = ({ children }) => {
       "product-sizeButton 2": 40,
       "product-sizeButton 3": 42,
       "product-sizeButton 4": 44,
-      "product-sizeButton 5": 46
+      "product-sizeButton 5": 46,
+      "quantity": 1,
     },
     {
       id: 8,
@@ -195,7 +202,8 @@ export const ProductContextProvider = ({ children }) => {
       "product-sizeButton 2": 40,
       "product-sizeButton 3": 42,
       "product-sizeButton 4": 44,
-      "product-sizeButton 5": 46
+      "product-sizeButton 5": 46,
+      "quantity": 1,
     },
     {
       id: 9,
@@ -219,7 +227,8 @@ export const ProductContextProvider = ({ children }) => {
       "product-sizeButton 2": 40,
       "product-sizeButton 3": 42,
       "product-sizeButton 4": 44,
-      "product-sizeButton 5": ""
+      "product-sizeButton 5": "",
+      "quantity": 1,
     },
     {
       id: 10,
@@ -243,7 +252,8 @@ export const ProductContextProvider = ({ children }) => {
       "product-sizeButton 2": 40,
       "product-sizeButton 3": 42,
       "product-sizeButton 4": 44,
-      "product-sizeButton 5": 46
+      "product-sizeButton 5": 46,
+      "quantity": 1,
     },
     {
       id: 11,
@@ -267,7 +277,8 @@ export const ProductContextProvider = ({ children }) => {
       "product-sizeButton 2": 40,
       "product-sizeButton 3": 42,
       "product-sizeButton 4": 44,
-      "product-sizeButton 5": 46
+      "product-sizeButton 5": 46,
+      "quantity": 1,
     },
     {
       id: 12,
@@ -291,7 +302,8 @@ export const ProductContextProvider = ({ children }) => {
       "product-sizeButton 2": 40,
       "product-sizeButton 3": 42,
       "product-sizeButton 4": 44,
-      "product-sizeButton 5": ""
+      "product-sizeButton 5": "",
+      "quantity": 1,
     },
   ]
 
