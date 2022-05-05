@@ -1,0 +1,33 @@
+.header-container {
+  width: 100%;
+  padding-left: 22px;
+  padding-right: 22px;
+  padding-top: 45px;
+  box-sizing: border-box;
+  height: 15vh;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+  background-color: white;
+  box-shadow: 0 2px 3px -1px rgba(0, 0, 0, 0.3);
+}
+
+.header-container .highlight {
+  color: #9d9ef0;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.features {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.features .items {
+  color: #d6d6d6;
+}
+
+.features span {
+  padding-right: 15px;
+}

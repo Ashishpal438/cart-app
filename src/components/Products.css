@@ -1,0 +1,43 @@
+.products-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8%;
+    margin: 10px;
+    padding: 10px;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+}
+
+.products-container :nth-child(odd){
+    flex: 45%;
+}
+
+.products-container :nth-child(even){
+    flex: 45%;
+}
+
+.products-container >* {
+    margin: 10px 0px;
+}
+
+.products-container .addToCart {
+    position: sticky;
+    bottom: 85px;
+    background-color: #8789d8;
+    border: none;
+    padding: 10px;
+    visibility: visible;
+    animation: fadeIn 0.5s;
+    border-radius: 5px;
+    color: white;
+}
+
+/* Fade in animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}

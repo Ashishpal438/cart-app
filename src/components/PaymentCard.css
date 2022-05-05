@@ -1,0 +1,32 @@
+
+.payment-container{
+    width: 100%;
+    box-sizing: border-box;
+    background-color: rgb(139, 27, 27);
+    padding: 5% 7%;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    color: white;
+}
+
+.payment-container h2 {
+    color: white;
+}
+
+.card-number {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20% ;
+    margin-bottom: 30px;
+}
+
+.card-number .dots{
+  font-size: 25px;
+}
+
+.card-holder {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
