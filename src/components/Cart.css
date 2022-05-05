@@ -4,6 +4,11 @@
     margin-top: 30px;
 }
 
+.back-arrow {
+    font-size: 22px;
+    cursor: pointer;
+}
+
 .flex {
     width: 100%;
     margin: auto;
@@ -24,6 +29,8 @@
     color: white;
     margin-top: 30px;
     margin-bottom: 30px;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 
@@ -38,6 +45,7 @@
     border-top: 1px solid rgba(177, 174, 174, 0.411);
     border-bottom: 1px solid rgba(177, 174, 174, 0.411);
     padding: 4% 0;
+    cursor: pointer;
 }
 
 .cart-item img {
@@ -63,6 +71,10 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.card-header h4{
+    cursor: pointer;
 }
 
 .card-header .large {

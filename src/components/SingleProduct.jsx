@@ -7,8 +7,8 @@ const SingleProduct = ({ product }) => {
   const dispatch = useDispatch();
 
   const handleAddToCart = (product) => {
-     console.log(product);
-     dispatch(addToCart(product));
+    console.log(product);
+    dispatch(addToCart(product));
   }
 
   return (
@@ -19,10 +19,10 @@ const SingleProduct = ({ product }) => {
       <div className='product-info'>
         <span className='highlighted-text'>{product.name}</span>
         <div className='highlighted-text'>
-           ${Math.floor(product.price.split(" ")[1]/30)}
+          ${Math.floor(product.price.split(" ")[1] / 30)}
         </div>
       </div>
-        <span className='special'>{product.description}</span>
+      <span className='special'>{product.description}</span>
     </div>
   )
 }

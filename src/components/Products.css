@@ -6,6 +6,7 @@
     padding: 10px;
     background-color: #f5f5f5;
     border-radius: 5px;
+    margin-top: 15vh;
 }
 
 .products-container :nth-child(odd){
@@ -17,12 +18,12 @@
 }
 
 .products-container >* {
-    margin: 10px 0px;
+    margin: 15px 0px;
 }
 
 .products-container .addToCart {
     position: sticky;
-    bottom: 85px;
+    bottom: 80px;
     background-color: #8789d8;
     border: none;
     padding: 10px;
@@ -30,6 +31,8 @@
     animation: fadeIn 0.5s;
     border-radius: 5px;
     color: white;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 /* Fade in animation */

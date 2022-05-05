@@ -16,12 +16,14 @@
   color: #9d9ef0;
   font-size: 18px;
   font-weight: bold;
+  cursor: pointer;
 }
 
 .features {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  cursor: pointer;
 }
 
 .features .items {

@@ -57,7 +57,7 @@ const Cart = () => {
 
     return (
         <div className='cart-container'>
-            <FaLongArrowAltLeft onClick={() => navigate('/')} />
+            <FaLongArrowAltLeft className="back-arrow" onClick={() => navigate('/')} />
             <h1>Check out</h1>
             <div className='cart-item-container'>
                 {
